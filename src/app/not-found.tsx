@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <Container
       maxWidth="sm"
-      style={{
+      sx={{
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
