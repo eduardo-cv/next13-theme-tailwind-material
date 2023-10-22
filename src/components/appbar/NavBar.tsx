@@ -5,7 +5,7 @@ import ThemeToggle from '../theme/ThemeToggle'
 export default function Navbar() {
   return (
     <AppBar position="static">
-      <Toolbar style={{ display: 'flex' }}>
+      <Toolbar sx={{ display: 'flex' }}>
         <div style={{ flexGrow: 0 }}>
           <Link href="/" passHref>
             <Button color="inherit">Home</Button>
